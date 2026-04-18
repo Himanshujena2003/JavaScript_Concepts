@@ -1,3 +1,5 @@
+//When javascript run a Global execution context is created
+
 // There are two phases of Javascript engine
 // 1. Memory creation Phase -> Memory is allocated to variables and Functions
 // 2. Code Execution Phase  -> Initialization and code execution is done in this phase
