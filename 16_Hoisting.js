@@ -1,8 +1,8 @@
 //When javascript run a Global execution context is created
 
 // There are two phases of Javascript engine
-// 1. Memory creation Phase -> Memory is allocated to variables and Functions
-// 2. Code Execution Phase  -> Initialization and code execution is done in this phase
+// 1. Memory creation Phase (variable enviroment) -> Memory is allocated to variables and Functions
+// 2. Code Execution Phase  (Thread of execution) -> Initialization and code execution is done in this phase
 
 // Shadowing -> when there are two variable present with same name the local scope  is given more priority than global scope
 
