@@ -1,4 +1,6 @@
 //When javascript run a Global execution context is created
+// Every time a new execution context is created
+// Local execution context  or  Local execution context 
 
 // There are two phases of Javascript engine
 // 1. Memory creation Phase (variable enviroment) -> Memory is allocated to variables and Functions
