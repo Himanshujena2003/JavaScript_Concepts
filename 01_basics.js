@@ -12,6 +12,7 @@
 
 // console.log(username); 
 // Redeclartion & Reintialization Possible
+console.log(null)
 console.log(username)
 var username;
 
@@ -19,7 +20,7 @@ var username;
 
 // console.log(x)
 // Redeclartion not possible & Reintialization Possible
-console.log(x)
+// console.log(x)
 let x; // cannot access 'x' before initialization
 
 
