@@ -8,7 +8,7 @@ function greet(city) {
   console.log(this.name + " from " + city);
 }
 
-const user = { name: "Amit" };
+var user = { name: "Amit" };
 
 greet.call(user, "Ahmedabad");
 
@@ -21,7 +21,7 @@ function greet(city, country) {
   console.log(this.name + " from " + city + ", " + country);
 }
 
-const user = { name: "Amit" };
+var user = { name: "Amit" };
 
 greet.apply(user, ["Ahmedabad", "India"]);
 
@@ -33,7 +33,7 @@ function greet(city) {
   console.log(this.name + " from " + city);
 }
 
-const user = { name: "Amit" };
+var user = { name: "Amit" };
 
 const newFn = greet.bind(user);
 
