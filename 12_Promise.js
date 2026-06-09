@@ -1,11 +1,8 @@
-let Pro = new Promise((res,rej)=>{
-    let error = true;
-    if(error){
-      rej("error");
-    }
-    else{
-      res("Completed");
-    }
+let Pro = new Promise((resolve,reject)=>{
+  setTimeout(()=>{
+    console.log("bye")
+    resolve("Hello");
+  },3000)
 })
 
 Pro.then((message)=>console.log(message))
